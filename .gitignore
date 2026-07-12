@@ -1,0 +1,31 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform lock file (optional)
+# Keep this file if you're working in a team.
+# Remove the line below if you want to commit it.
+#.terraform.lock.hcl
+
+# Sensitive files
+*.pem
+*.key
+
+# VS Code settings (optional)
+.vscode/
